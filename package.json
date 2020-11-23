@@ -1,0 +1,38 @@
+{
+  "name": "SoloProjectAPI",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "node --inspect -r ts-node/register -r dotenv/config src/index.ts",
+    "orm": "ts-node -r dotenv/config ./node_modules/typeorm/cli.js --config src/ormconfig.ts",
+    "makeMigrations": "yarn orm migration:generate",
+    "migrate": "yarn orm migration:run",
+    "rollback": "yarn orm migration:revert",
+    "seeder": "ts-node -r dotenv/config ./node_modules/typeorm-seeding/dist/cli.js",
+    "seed": "yarn seeder --configName src/ormconfig.ts seed"
+  },
+  "dependencies": {
+    "@types/node": "^14.14.9",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-config-problems": "^5.0.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "express": "^4.17.1",
+    "husky": "^4.3.0",
+    "json-loader": "^0.5.7",
+    "mocha": "^8.2.1",
+    "nodemon": "^2.0.6",
+    "pg": "^8.5.1",
+    "prettier": "^2.2.0",
+    "pretty-quick": "^3.1.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.0.0",
+    "typeorm": "^0.2.29",
+    "typeorm-seeding": "^1.6.1",
+    "typescript": "^4.1.2"
+  }
+}
