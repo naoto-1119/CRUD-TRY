@@ -140,7 +140,7 @@ Sample Reponse
     }
 ]
 ```
-Response
+
 - Create a House Name - POST/ http://localhost:3000/family + Body Required
 
 Sample Body
