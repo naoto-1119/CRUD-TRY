@@ -1,11 +1,11 @@
 # Solo_Api_Project
 
 
-**Introduction**
+## **Introduction**
 
 __*This was created during my time as a student at Code Chrysalis.*__ This repository uses Express and Typeorm for server and database connection. Providing CRUD API to GET/POST/PATCH/DELETE for a pre-set database schema. 
 
-There are three tables(entities) prepared per below. \
+There are three tables(entities) prepared per below.
 
 1. Family - Only has House Name of a Family
 2. Parents - Only has Parent's Information with relation to Family Table (Many to One)
@@ -13,7 +13,7 @@ There are three tables(entities) prepared per below. \
 
 Please check the CRUD API features below, but before you can use the Quick Start Guide to prepare a database with set of data to play with.
 
-**Quick Start**
+## **Quick Start**
 
 0. ```git clone``` - clone to local repository using the git clone command
 1. ```yarn install``` -  install dependencies in package.json
@@ -23,11 +23,11 @@ Please check the CRUD API features below, but before you can use the Quick Start
 5. ```yarn dev``` - starts the connection with server and database
 
 
-**Documenting In Progress**
+## **Documenting In Progress**
 - Information on each Table's property and value (data types).
 - Other commands details such as ```yarn rollback```, ```yarn makeMigrations```...
 
-**API Features**
+## **API Features**
 - Starting Point "Greeting Message" will be Logged - http://localhost:3000/ 
 ```
 GOOD JOB!!!
@@ -204,6 +204,6 @@ Response  -  When Successfully Processed
 A Family Has Been Removed!!
 ```
 
-**Reference**
+## **Reference**
 - Using "Typeorm" package for Database connection/communication.
 - Using "Express" package for Server connection/handling requests.

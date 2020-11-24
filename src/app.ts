@@ -22,6 +22,7 @@ const setupServer = () => {
 
   // Entry Point
   app.get("/", (req, res) => {
+    console.log("GOOD JOB!!!!");
     return res.send("GOOD JOB!!!");
   });
 
