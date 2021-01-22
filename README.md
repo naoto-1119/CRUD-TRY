@@ -1,9 +1,9 @@
-# Solo_Api_Project
+# CRUD TRY
 
 
 ## **Introduction**
 
-__*This was created during my time as a student at Code Chrysalis.*__ This repository uses Express and Typeorm for server and database connection. Providing CRUD API to GET/POST/PATCH/DELETE for a pre-set database schema. 
+__*This was created during my time as a student at Code Chrysalis. Created in 1 day.*__ This repository uses Express and Typeorm/PostgresSQL for server and database. Providing CRUD API to GET/POST/PATCH/DELETE for a pre-set database schema. 
 
 There are three tables(entities) prepared per below.
 
